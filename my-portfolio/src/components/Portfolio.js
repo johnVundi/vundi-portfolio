@@ -10,27 +10,33 @@ function Portfolio() {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            src: arrayDestruct,
+            href:"https://github.com/Adisia2/react-hooks-component-props-mini-project"
         },
         {
             id: 2,
-            src: barberShop
+            src: barberShop,
+            href:"https://github.com/Adisia2/barber-shop"
         },
         {
             id: 3,
-            src: navbar
+            src: navbar,
+            href:"https://github.com/Adisia2/react-hooks-react-router-programmatic-navigation"
         },
         {
             id: 4,
-            src: botBattlr
+            src: botBattlr,
+            href:"https://github.com/Adisia2/code-challenge-bot-battlr"
         },
         {
             id: 5,
-            src: reactSmooth
+            src: reactSmooth,
+            href:"https://github.com/Adisia2/react-hooks-react-router-code-along"
         },
         {
             id: 6,
-            src: ramenRater
+            src: ramenRater,
+            href:"https://github.com/Adisia2/phase-1-mock-cc-ramen-rater"
         },
     ]
 
@@ -46,13 +52,15 @@ function Portfolio() {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-12 sm:px-0">
         {
-           portfolios.map(({id, src})=>(
+           portfolios.map(({id, src, href })=>(
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
             <img src={src}
              alt=""
              className="rounde-md duration-200 hover:scale-105"/>
             <div className="flex items-center justify-center">
-            <button className="w-1/2 px-6 py-3 m-4 rounded-md duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500">check out</button>
+            <a   href={href}
+            className="flex justify-center items-center w-full text-white"
+            ><button className="w-1/2 px-6 py-3 m-4 rounded-md duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500">check out</button></a>
            
             </div>
             </div>
