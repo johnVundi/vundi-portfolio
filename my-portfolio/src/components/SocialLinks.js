@@ -54,7 +54,7 @@ function SocialLinks() {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: "/resume(1).pdf",
+            href: "/Resume.pdf",
             style:"rounded-br-md",
             download:true,
             
