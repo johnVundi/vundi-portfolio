@@ -1,11 +1,11 @@
 
 import React from 'react'
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg"
-import installNode from "../assets/portfolio/installNode.jpg"
+import barberShop from "../assets/portfolio/barberShop .jpg"
 import navbar from "../assets/portfolio/navbar.jpg"
-import reactParallax from "../assets/portfolio/reactParallax.jpg"
+import botBattlr from "../assets/portfolio/bottBattlr2 .jpg"
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
-import reactWeather from "../assets/portfolio/reactWeather.jpg"
+import ramenRater from "../assets/portfolio/ramenRater.jpg"
 function Portfolio() {
     const portfolios = [
         {
@@ -14,7 +14,7 @@ function Portfolio() {
         },
         {
             id: 2,
-            src: installNode
+            src: barberShop
         },
         {
             id: 3,
@@ -22,7 +22,7 @@ function Portfolio() {
         },
         {
             id: 4,
-            src: reactParallax
+            src: botBattlr
         },
         {
             id: 5,
@@ -30,7 +30,7 @@ function Portfolio() {
         },
         {
             id: 6,
-            src: reactWeather
+            src: ramenRater
         },
     ]
 
@@ -52,8 +52,8 @@ function Portfolio() {
              alt=""
              className="rounde-md duration-200 hover:scale-105"/>
             <div className="flex items-center justify-center">
-            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"></button>
-            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"></button>
+            <button className="w-1/2 px-6 py-3 m-4 rounded-md duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500">check out</button>
+           
             </div>
             </div>
            ))
