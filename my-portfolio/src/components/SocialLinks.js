@@ -54,7 +54,7 @@ function SocialLinks() {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: "/Resume.pdf",
+            href: "/John Vundi CV (2).pdf",
             style:"rounded-br-md",
             download:true,
             
