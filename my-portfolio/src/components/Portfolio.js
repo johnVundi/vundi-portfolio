@@ -1,17 +1,17 @@
 
 import React from 'react'
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg"
+import carSearch from "../assets/portfolio/carSearch.png"
 import barberShop from "../assets/portfolio/barberShop .jpg"
-import navbar from "../assets/portfolio/navbar.jpg"
-import botBattlr from "../assets/portfolio/bottBattlr2 .jpg"
+import vundiSocial from "../assets/portfolio/vundiSocial.png"
+import cart from "../assets/portfolio/cart.png"
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
 import ramenRater from "../assets/portfolio/ramenRater.jpg"
 function Portfolio() {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct,
-            href:"https://github.com/Adisia2/react-hooks-component-props-mini-project"
+            src: carSearch,
+            href:"https://cars-project-sigma.vercel.app/"
         },
         {
             id: 2,
@@ -20,13 +20,13 @@ function Portfolio() {
         },
         {
             id: 3,
-            src: navbar,
-            href:"https://github.com/Adisia2/react-hooks-react-router-programmatic-navigation"
+            src: vundiSocial,
+            href:"https://vundi-social.vercel.app/"
         },
         {
             id: 4,
-            src: botBattlr,
-            href:"https://github.com/Adisia2/code-challenge-bot-battlr"
+            src: cart,
+            href:"https://cart-6gxp.vercel.app/"
         },
         {
             id: 5,
